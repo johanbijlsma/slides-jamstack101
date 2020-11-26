@@ -102,6 +102,7 @@ header {
     min-width: 98vw;
     display: grid;
     z-index: 103;
+    font-family: Helvetica, sans-serif;
     grid-template-areas: 'logo event-title' 'logo event-date';
     svg.logo {
         grid-area: logo;

@@ -46,6 +46,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-weight: normal;
   color: #eee; }
 
+header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px; }
+
 .reveal ::selection {
   color: #fff;
   background: #e7ad52;

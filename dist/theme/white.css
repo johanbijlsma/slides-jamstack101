@@ -45,6 +45,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-weight: normal;
   color: #222; }
 
+header {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 42px; }
+
 .reveal ::selection {
   color: #fff;
   background: #98bdef;

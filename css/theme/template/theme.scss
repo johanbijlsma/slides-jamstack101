@@ -18,6 +18,11 @@
     color: $mainColor;
 }
 
+header {
+    font-family: $mainFont;
+    font-size: $mainFontSize;
+}
+
 .reveal ::selection {
     color: $selectionColor;
     background: $selectionBackgroundColor;

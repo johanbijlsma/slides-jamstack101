@@ -97,9 +97,11 @@ header {
     min-height: 80px;
     overflow: hidden;
     padding: 1.4rem;
-    position: sticky;
+    position: absolute;
     top: 0;
+    min-width: 98vw;
     display: grid;
+    z-index: 103;
     grid-template-areas: 'logo event-title' 'logo event-date';
     svg.logo {
         grid-area: logo;
@@ -120,6 +122,13 @@ header {
         opacity: 0.5;
         margin: 0;
     }
+}
+
+svg.jamstacklogo {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    z-index: 1000;
 }
 
 .reveal .slides .two-up {
